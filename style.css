@@ -68,6 +68,7 @@ h2 {
   display: inline-block;
   padding: 0.7em 1.2em;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .button-purple:hover {
   background-color: #9E1F63;
