@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+html {
+  font-size: 16px;
+}
+body {
+  background-color: #f6f6f6;
+  color: #2E3979;
+  font-family: Poppins, Montserrat, Arial, sans-serif;
+  margin: 0;
+}
+h1, h2, p {
+  margin: 0 0 0.8em;
+}
+.center-content {
+  margin: 0 auto;
+  max-width: 750px;
+  text-align: center;
+}
+.card {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 3px 3px 10px #2E397933;
+  box-sizing: border-box;
+  margin: 30px;
+  padding: 30px;
+}
+h1 {
+  color: #9E1F63;
+  font-size: 2.25rem;
+}
+h1 i {
+  font-size: 1.2em;
+}
+h2 {
+  font-size: 1.75rem;
+}
+.img-circle {
+  border-radius: 100px;
+  height: 200px;
+  margin: auto;
+  overflow: hidden;
+  width: 200px;
+}
+.img-circle img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.social-networks a {
+  background-color: #2E3979;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.5rem;
+  height: 36px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  width: 36px;
+}
+.social-networks a:hover {
+  background-color: #623188;
+}
+.button-purple {
+  background-color: #623188;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  padding: 0.7em 1.2em;
+  text-decoration: none;
+}
+.button-purple:hover {
+  background-color: #9E1F63;
+}
+@media (max-width: 960px) {
+  .center-content {
+    width: 700px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .center-content {
+    width: 500px;
+  }
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 540px) {
+  .center-content {
+    width: 100%;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+  h2 {
+    font-size: 1.35rem;
+  }
+}
